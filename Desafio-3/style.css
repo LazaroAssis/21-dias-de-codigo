@@ -1,0 +1,69 @@
+body {
+    margin: 0;
+    padding: 0;
+
+    width: 100vw;
+    height: 100vh;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+
+p {
+    font-family: 'Roboto', sans-serif;
+    text-transform: uppercase;
+    color: #667;
+}
+
+button {
+    width: 13rem;
+    height: 5rem;
+    background-color: #349339;
+    border: none;
+    border-radius: .5rem;
+    padding: 2rem 0;
+    margin-left: 1rem;
+    text-transform: uppercase;
+    color: rgb(255, 255, 255);
+    font-family: 'Roboto', sans-serif;
+    cursor: pointer;
+    transition: all 1s ease;
+
+    animation-name: shake;
+    animation-duration: 1.5s;
+    animation-delay: 0s;
+    animation-iteration-count: infinite;
+    animation-direction: alternate-reverse;
+}
+
+button:hover {
+    width: 10rem;
+    height: 10rem;
+    border-radius: 100%;
+    transition: all 1s cubic-bezier(.29, 1.01, 1, -0.68);
+}
+
+@keyframes shake {
+    0% {
+        transform: translateX(0);
+    }
+
+    25% {
+        transform: translateX(10px);
+    }
+
+    50% {
+        transform: translateX(-10px);
+    }
+
+    75% {
+        transform: translateX(10px);
+    }
+
+    100% {
+        transform: translateX(0);
+    }
+}
