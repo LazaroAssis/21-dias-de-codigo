@@ -1,0 +1,11 @@
+{
+  "name": "hello-world",
+  "version": "1.0.0",
+  "description": "Faça um Helo-World customizado",
+  "main": "index.js",
+  "scripts": {
+    "test": "start"
+  },
+  "author": "Lázaro Ataide de assis",
+  "license": "MIT"
+}

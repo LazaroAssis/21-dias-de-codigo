@@ -1,0 +1,38 @@
+body {
+    margin: 0;
+    padding: 0;
+    width: 100vw;
+    height: 100vh;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+
+    background: rgb(2,0,36);
+    background: linear-gradient(90deg, rgb(47, 47, 49) 0%, rgba(9,70,121,1) 38%, rgba(0,212,255,1) 100%);
+}
+
+
+h1,
+p {
+    font-family: 'Roboto', sans-serif;
+    color: rgb(255, 255, 255);
+    font-weight: 300;
+}
+
+
+h1 {
+    font-size: 4rem;
+}
+
+h1 strong {
+    font-weight: 700;
+    background: rgb(96 189 153 / 33%);
+}
+
+p a {
+    text-decoration: none;
+    font-weight: 700;
+    color: #999;
+}
