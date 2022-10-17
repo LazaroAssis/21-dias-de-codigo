@@ -6,3 +6,5 @@ Desafios:
 Crie um repositório para listar os projetos que serão desenvolvidos durante os 21 dias de código.   <a href='https://github.com/LazaroAssis/21-dias-de-codigo'> 21-dias de código.</a>
 <hr>
 2-Faça um Hello World customizado com fontes, cores e imagens.  <a href='https://lazaroassis.github.io/21-dias-de-codigo/Desafio-2/Hello-World/' target='_blank'>VEJA O DESAFIO CONCLUÍDO</a>
+
+3-Crie um botão animado. <a href='https://lazaroassis.github.io/21-dias-de-codigo/Desafio-3/bot%C3%A3o-animado/'>VEJA O DESAFIO CONCLUÍDO</a>
