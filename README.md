@@ -11,3 +11,4 @@ Crie um repositório para listar os projetos que serão desenvolvidos durante os
 4-Crie uma calculadora. <a href='https://lazaroassis.github.io/21-dias-de-codigo/Desafio-4/Calculadora' target='_blank'>VEJA O DESAFIO CONCLUÍDO</a><br>
 5-Desenvolva uma página customizada que exiba o erro 404. <a href='https://lazaroassis.github.io/21-dias-de-codigo/Desafio-5/404/' target='_blank'>VEJA O DESAFIO CONCLUÍDO</a><br>
 6-Crie um card com o efeito glassmorphism. <a href='https://lazaroassis.github.io/21-dias-de-codigo/Desafio-6/Glassmorphism' target='_blank'>VEJA O DESAFIO CONCLUÍDO</a><br>
+7-Desenvolva um contador. <a href='https://lazaroassis.github.io/21-dias-de-codigo/Desafio-7/contador' target='_blank'>VEJA O DESAFIO CONCLUÍDO</a><br>
