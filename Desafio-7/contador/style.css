@@ -1,0 +1,111 @@
+body {
+    margin: 0;
+    padding: 0;
+
+    width: 100vw;
+    height: 100vh;
+
+    font-family: 'Roboto', sans-serif;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    background-color: rgb(74 71 71);
+}
+
+main {
+    width: 500px;
+    height: 500px;
+    border: 1px solid #000000;
+    box-shadow: 10px 10px 8px 10px rgba(0, 220, 255, 0.4);
+    border-radius: 5px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+button {
+    cursor: pointer;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    font-weight: 600;
+    border: none;
+
+    background-color: #b9b9b9;
+    
+}
+
+.button img {
+    width: 60%;
+}
+
+.buttons,
+.mainButtons {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 8px;
+}
+
+.buttons button {
+    padding: 1rem 1.5rem;
+    border-radius: 10px;    
+}
+
+.buttons .button-mode {
+    font-family: 'Roboto', sans-serif;
+    font-weight: 700;
+    font-size: 16px;
+    color: rgb(255, 255, 255);
+}
+
+#display {
+    width: 100%;
+    height: 100px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: row;
+}
+
+#mainDisplay p {
+    font-size: 5rem;
+    color: rgb(255, 255, 255);
+}
+
+.mainButtons {
+    gap: 40px;
+}
+
+.mainButtons button {
+    width: 70px;
+    height: 70px;
+    border: none;
+    cursor: pointer;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: contain;
+    background-color: transparent;
+}
+
+.mainButtons button {
+    background-color: #b9b9b9;
+    border-radius: 10px;
+}
+
+.mainButtons button[data-action="start"] {
+    background-image: url(images/start.svg);
+}
+
+.mainButtons button[data-action="pause"] {
+    background-image: url(images/pause.svg);
+}
+
+.mainButtons button[data-action="stop"] {
+    background-image: url(images/stop.svg);
+}
