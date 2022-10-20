@@ -13,6 +13,7 @@ Crie um repositório para listar os projetos que serão desenvolvidos durante os
 7-Desenvolva um contador. <a href='https://lazaroassis.github.io/21-dias-de-codigo/Desafio-7/contador' target='_blank'>VEJA O DESAFIO CONCLUÍDO</a><br>
 8-Desenvolva um toggle que altere o tema para claro e escuro. <a href='https://lazaroassis.github.io/21-dias-de-codigo/Desafio-8/darkMode' target='_blank'>VEJA O DESAFIO CONCLUÍDO</a><br>
 9-Desenvolva uma animaçãos de loading. <a href='https://lazaroassis.github.io/21-dias-de-codigo/Desafio-9/progressBar' target='_blank'>VEJA O DESAFIO CONCLUÍDO</a><br>
+10-Utilize a lib particle.js. <a href='https://lazaroassis.github.io/21-dias-de-codigo/Desafio-10/particles' target='_blank'>VEJA O DESAFIO CONCLUÍDO</a><br>
 
 
 
