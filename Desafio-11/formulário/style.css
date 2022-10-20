@@ -1,0 +1,90 @@
+body {
+    margin: 0;
+    padding: 0;
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: rgb(2,0,36);
+    background: linear-gradient(275deg, rgb(47, 47, 49) 0%, rgba(9,70,121,1) 38%, rgba(0,212,255,1) 100%);   
+}
+
+main {
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+
+form {
+    width: 40%;
+    padding: 1rem 0;
+    border-radius: 12px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+form h1,
+form p,
+form a {
+    color: rgb(255, 255, 255);
+    margin-bottom: 20px;
+}
+
+form input {
+    width: 70%;
+    padding: .5rem 0;
+    border: none;
+    border-bottom: 2px, solid rgb(93, 94, 95);
+    outline: none;
+    font-size: 1rem;
+    text-align: center;
+    margin-bottom: 1rem;
+    color: rgb(255, 255, 255);
+    background: #fbfbfb70;
+    border-radius: 5px;
+
+}
+
+form input::placeholder {
+    color: rgb(0, 0, 0);
+}
+
+form input:hover {
+    box-shadow: 0 15px 20px -6px rgb(255, 255, 255);
+}
+
+form button {
+    width: 70%;
+    padding: 0.8rem;
+    margin: 2rem 0;
+  
+    border: none;
+    border-radius: 10px;
+    background-color: rgba(0, 0, 0, 0.271);
+  
+    color: #fff;
+    font-size: 1rem;
+  
+    transition: all 0.3s ease;
+    cursor: pointer;
+  
+  }
+  
+  form button:hover {
+    box-shadow: 0 0 20px -6px rgb(165, 24, 24);
+    background: rgb(119, 118, 118);
+  }
+  
+  .loading {
+    width: 50px;
+  }
+  
+  .loading.hidden {
+    display: none;
+  }
