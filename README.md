@@ -1,4 +1,4 @@
-# 21-dias-de-codigo
+# 21-dias-de-código
 Codar pelo menos 1 hora por dia durante 21 dias e concluir desafios diários.
 
 
